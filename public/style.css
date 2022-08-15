@@ -1,0 +1,26 @@
+h1{
+    color: blue
+}
+
+.rcd{
+
+    background-color: rgba(57, 56, 56, 0.092);
+
+}
+
+#chatbox{
+    display: none;
+}
+
+.rcd#receiver{
+    background-color: black;
+}
+
+#chatbox{
+    margin-top: 20px;
+}
+
+span
+{
+    margin-left: 20px;
+}

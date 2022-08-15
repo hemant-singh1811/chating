@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Socket.io</h1>
+
+    <div id="loginbox">
+        <h1>Username :</h1>
+        <input type="text" id="username">
+        <button id="loginbtn">Login</button>
+    </div>
+
+    <div id="chatbox">
+        <h2>Chat-box</h2>
+        <h4>username :  <span id="name"></span></h4>
+        <input type="text" id="sendto" placeholder="Default send to all">
+        <input type="text" id="msg" placeholder="enter message to send">
+        <button id="sendbtn">Send</button>
+
+        <div id="chat">
+       
+
+
+        </div>
+    </div>
+
+    <!-- <button id="offbtn">OffBtn</button>
+
+    <button id="btn1">btn1</button>
+    <button id="btn2">btn2</button>
+
+    <input type="datetime" id="id1" placeholder="enter date" >
+
+    <button id="btnd"> Date</button>
+
+    <div id="chat">
+
+        <div class="rcd">
+            <span id="receiver"></span>
+            <span id="time"></span>
+        </div>
+
+        <div class="send">
+            <span id="receiver"></span>
+            <span id="time"></span>    
+        </div>
+
+    </div> -->
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script2.js"></script>
+</body>
+
+</html>
